@@ -314,6 +314,24 @@ const DATA = {
       { en: "librarian", tr: "kütüphaneci", level: "A1" },
       { en: "guide", tr: "rehber", level: "A1" },
       { en: "journalist", tr: "gazeteci", level: "A1" },
+      { en: "architect", tr: "mimar", level: "A1" },
+      { en: "psychologist", tr: "psikolog", level: "A1" },
+      { en: "business person", tr: "işadamı/işkadını", level: "A1" },
+      { en: "digital marketer", tr: "dijital pazarlamacı", level: "A1" },
+      { en: "content creator", tr: "içerik üreticisi", level: "A1" },
+      { en: "shoot", tr: "çekmek (fotoğraf)", level: "A1" },
+      { en: "develop", tr: "geliştirmek", level: "A1" },
+      { en: "serve", tr: "hizmet etmek", level: "A1" },
+      { en: "research", tr: "araştırmak", level: "A1" },
+      { en: "organise", tr: "organize etmek", level: "A1" },
+      { en: "defend", tr: "savunmak", level: "A1" },
+      { en: "report", tr: "rapor etmek", level: "A1" },
+      { en: "check", tr: "kontrol etmek", level: "A1" },
+      { en: "advise", tr: "tavsiye etmek", level: "A1" },
+      { en: "respect", tr: "saygı", level: "A1" },
+      { en: "co-operation", tr: "işbirliği", level: "A1" },
+      { en: "care", tr: "özen/ilgi", level: "A1" },
+      { en: "love", tr: "sevgi", level: "A1" },
       { en: "engineer", tr: "mühendis", level: "A2" },
       { en: "police officer", tr: "polis", level: "A2" },
       { en: "firefighter", tr: "itfaiyeci", level: "A2" },
@@ -473,9 +491,10 @@ const DATA = {
   },
   
   family_members: {
-    name: "Family Members",
+    name: "Family Life",
     icon: "👨‍👩‍👧‍👦",
-    description: "Aile Bireyleri",
+    description: "Aile Hayatı",
+    grade: "9",
     trToEn: [
       { tr: "Bu benim ailem.", en: "This is my family.", level: "A1" },
       { tr: "Annem çok güzel.", en: "My mother is very beautiful.", level: "A1" },
@@ -689,19 +708,40 @@ const DATA = {
     vocabulary: [
       { en: "mother", tr: "anne", level: "A1" },
       { en: "father", tr: "baba", level: "A1" },
-      { en: "sister", tr: "kız kardeş", level: "A1" },
-      { en: "brother", tr: "erkek kardeş", level: "A1" },
-      { en: "grandmother", tr: "büyükanne", level: "A1" },
-      { en: "grandfather", tr: "büyükbaba", level: "A1" },
+      { en: "parents", tr: "anne baba", level: "A1" },
       { en: "son", tr: "oğul", level: "A1" },
       { en: "daughter", tr: "kız", level: "A1" },
+      { en: "child", tr: "çocuk", level: "A1" },
+      { en: "children", tr: "çocuklar", level: "A1" },
+      { en: "brother", tr: "erkek kardeş", level: "A1" },
+      { en: "sister", tr: "kız kardeş", level: "A1" },
+      { en: "sibling", tr: "kardeş", level: "A1" },
+      { en: "siblings", tr: "kardeşler", level: "A1" },
+      { en: "grandmother", tr: "büyükanne", level: "A1" },
+      { en: "grandfather", tr: "büyükbaba", level: "A1" },
+      { en: "grandparents", tr: "büyükanne ve büyükbaba", level: "A1" },
+      { en: "grandson", tr: "erkek torun", level: "A1" },
+      { en: "granddaughter", tr: "kız torun", level: "A1" },
+      { en: "grandchild", tr: "torun", level: "A1" },
+      { en: "grandchildren", tr: "torunlar", level: "A1" },
+      { en: "aunt", tr: "teyze/hala", level: "A1" },
+      { en: "uncle", tr: "amca/dayı", level: "A1" },
+      { en: "niece", tr: "kız yeğen", level: "A1" },
+      { en: "nephew", tr: "erkek yeğen", level: "A1" },
+      { en: "cousin", tr: "kuzen", level: "A1" },
+      { en: "stepmother", tr: "üvey anne", level: "A1" },
+      { en: "stepfather", tr: "üvey baba", level: "A1" },
+      { en: "stepbrother", tr: "üvey erkek kardeş", level: "A1" },
+      { en: "stepsister", tr: "üvey kız kardeş", level: "A1" },
+      { en: "stepson", tr: "üvey oğul", level: "A1" },
+      { en: "stepdaughter", tr: "üvey kız", level: "A1" },
+      { en: "stepchild", tr: "üvey çocuk", level: "A1" },
+      { en: "stepparent", tr: "üvey ebeveyn", level: "A1" },
       { en: "family", tr: "aile", level: "A1" },
       { en: "mom", tr: "anne", level: "A1" },
       { en: "dad", tr: "baba", level: "A1" },
       { en: "grandma", tr: "büyükanne", level: "A1" },
       { en: "grandpa", tr: "büyükbaba", level: "A1" },
-      { en: "child", tr: "çocuk", level: "A1" },
-      { en: "children", tr: "çocuklar", level: "A1" },
       { en: "baby", tr: "bebek", level: "A1" },
       { en: "boy", tr: "erkek çocuk", level: "A1" },
       { en: "girl", tr: "kız çocuk", level: "A1" },
@@ -710,9 +750,6 @@ const DATA = {
       { en: "people", tr: "insanlar", level: "A1" },
       { en: "person", tr: "kişi", level: "A1" },
       { en: "parent", tr: "ebeveyn", level: "A1" },
-      { en: "parents", tr: "anne baba", level: "A1" },
-      { en: "sibling", tr: "kardeş", level: "A1" },
-      { en: "siblings", tr: "kardeşler", level: "A1" },
       { en: "older", tr: "daha büyük", level: "A1" },
       { en: "younger", tr: "daha küçük", level: "A1" },
       { en: "big", tr: "büyük", level: "A1" },
@@ -853,9 +890,10 @@ const DATA = {
   },
   
   tense_present: {
-    name: "Present Tense",
+    name: "Simple Present Tense",
     icon: "⏰",
-    description: "Simple & Continuous",
+    description: "Geniş Zaman",
+    grade: "9",
     trToEn: [
       { tr: "Ben her gün okula gidiyorum.", en: "I go to school every day.", level: "A1" },
       { tr: "O şu anda kitap okuyor.", en: "He is reading a book now.", level: "A1" },
@@ -1864,6 +1902,156 @@ const DATA = {
         level: "A2"
       }
     ]
+  },
+  
+  used_to: {
+    name: "Used To",
+    icon: "🕰️",
+    description: "Geçmiş Alışkanlıklar (10. Sınıf)",
+    grade: "10",
+    trToEn: [
+      { tr: "Eskiden burada yaşardım.", en: "I used to live here.", level: "B1" },
+      { tr: "Her gün koşar mıydın?", en: "Did you use to run every day?", level: "B1" },
+      { tr: "O eskiden sigara içerdi.", en: "He used to smoke.", level: "B1" },
+      { tr: "Eskiden çok kitap okurdum.", en: "I used to read a lot of books.", level: "B1" },
+      { tr: "Çocukken bisiklet sürerdim.", en: "I used to ride a bike when I was a child.", level: "B1" },
+      { tr: "Eskiden erken kalkardık.", en: "We used to wake up early.", level: "B1" },
+      { tr: "O eskiden öğretmendi.", en: "She used to be a teacher.", level: "B1" },
+      { tr: "Eskiden burada bir park vardı.", en: "There used to be a park here.", level: "B1" },
+      { tr: "Her hafta sonu futbol oynardım.", en: "I used to play football every weekend.", level: "B1" },
+      { tr: "Eskiden kahve içmezdim.", en: "I didn't use to drink coffee.", level: "B1" }
+    ],
+    enToTr: [
+      { en: "I used to live in Ankara.", tr: "Eskiden Ankara'da yaşardım.", level: "B1" },
+      { en: "She used to be my friend.", tr: "O eskiden arkadaşımdı.", level: "B1" },
+      { en: "Did you use to play tennis?", tr: "Tenis oynardın mı?", level: "B1" },
+      { en: "We used to go swimming.", tr: "Yüzmeye giderdik.", level: "B1" },
+      { en: "He didn't use to like vegetables.", tr: "Sebzeleri sevmezdi.", level: "B1" },
+      { en: "There used to be a cinema here.", tr: "Burada eskiden sinema vardı.", level: "B1" },
+      { en: "I used to have long hair.", tr: "Uzun saçım vardı eskiden.", level: "B1" },
+      { en: "They used to visit us often.", tr: "Bizi sık sık ziyaret ederlerdi.", level: "B1" },
+      { en: "Did she use to work here?", tr: "Burada çalışır mıydı?", level: "B1" },
+      { en: "I used to be afraid of dogs.", tr: "Köpeklerden korkardım.", level: "B1" }
+    ],
+    vocabulary: [
+      { en: "used to", tr: "-ardı/-erdi (geçmiş alışkanlık)", level: "B1" },
+      { en: "past habit", tr: "geçmiş alışkanlık", level: "B1" },
+      { en: "no longer", tr: "artık değil", level: "B1" },
+      { en: "anymore", tr: "artık", level: "B1" },
+      { en: "before", tr: "önce, eskiden", level: "B1" },
+      { en: "in the past", tr: "geçmişte", level: "B1" },
+      { en: "when I was young", tr: "gençken", level: "B1" },
+      { en: "childhood", tr: "çocukluk", level: "B1" }
+    ],
+    errorHunt: [
+      { wrong: "I use to live here.", correct: "I used to live here.", explanation: "Geçmiş alışkanlık: 'used to' (geçmiş zaman)", level: "B1" },
+      { wrong: "Did you used to smoke?", correct: "Did you use to smoke?", explanation: "Soruda 'did' var, 'use to' kullanılır.", level: "B1" },
+      { wrong: "He didn't used to play.", correct: "He didn't use to play.", explanation: "Olumsuzdaki 'did' sonrası 'use to' olur.", level: "B1" },
+      { wrong: "I used to going there.", correct: "I used to go there.", explanation: "'Used to' sonrası fiilin yalın hali gelir.", level: "B1" }
+    ],
+    roleplay: [
+      { 
+        scenario: "Eskiden burada yaşadığını söylüyorsun.",
+        options: [
+          "I use to live here.",
+          "I used to live here.",
+          "I was used to live here.",
+          "I am used to live here."
+        ],
+        correct: 1,
+        explanation: "Geçmiş alışkanlık: 'used to + fiil'",
+        level: "B1"
+      },
+      { 
+        scenario: "Eskiden sigara içip içmediğini soruyorsun.",
+        options: [
+          "Did you used to smoke?",
+          "Do you used to smoke?",
+          "Did you use to smoke?",
+          "Were you use to smoke?"
+        ],
+        correct: 2,
+        explanation: "Soru: 'Did + özne + use to + fiil?'",
+        level: "B1"
+      }
+    ]
+  },
+  
+  transitions: {
+    name: "Transitions",
+    icon: "🔗",
+    description: "Bağlaçlar ve Geçiş İfadeleri (10. Sınıf)",
+    grade: "10",
+    trToEn: [
+      { tr: "Öncelikle, planlamamızı yapalım.", en: "First of all, let's make our plan.", level: "B1" },
+      { tr: "Ayrıca, bu çok pahalı.", en: "Moreover, this is very expensive.", level: "B1" },
+      { tr: "Öte yandan, bu daha güvenli.", en: "On the other hand, this is safer.", level: "B1" },
+      { tr: "Sonuç olarak, başardık.", en: "As a result, we succeeded.", level: "B1" },
+      { tr: "Örneğin, elma gibi meyveler sağlıklıdır.", en: "For example, fruits like apples are healthy.", level: "B1" },
+      { tr: "Aslında, bu çok kolay.", en: "In fact, this is very easy.", level: "B1" },
+      { tr: "Ancak, çok yorgunum.", en: "However, I am very tired.", level: "B1" },
+      { tr: "Bu nedenle, evde kaldım.", en: "Therefore, I stayed at home.", level: "B1" },
+      { tr: "Her şeyden önce, güvenlik önemlidir.", en: "Above all, safety is important.", level: "B1" },
+      { tr: "Sonunda, onu buldum.", en: "Finally, I found it.", level: "B1" }
+    ],
+    enToTr: [
+      { en: "First of all, we need to study.", tr: "Öncelikle, çalışmamız gerekiyor.", level: "B1" },
+      { en: "In addition, this is cheaper.", tr: "Ek olarak, bu daha ucuz.", level: "B1" },
+      { en: "However, I don't agree.", tr: "Ancak, katılmıyorum.", level: "B1" },
+      { en: "For instance, cats and dogs are pets.", tr: "Örneğin, kediler ve köpekler evcil hayvanlardır.", level: "B1" },
+      { en: "Therefore, we must go.", tr: "Bu nedenle, gitmeliyiz.", level: "B1" },
+      { en: "On the contrary, it's false.", tr: "Aksine, bu yanlış.", level: "B1" },
+      { en: "As a result, he won.", tr: "Sonuç olarak, kazandı.", level: "B1" },
+      { en: "In conclusion, we learned a lot.", tr: "Sonuç olarak, çok şey öğrendik.", level: "B1" },
+      { en: "Nevertheless, we continued.", tr: "Yine de devam ettik.", level: "B1" },
+      { en: "Furthermore, it's important.", tr: "Dahası, bu önemli.", level: "B1" }
+    ],
+    vocabulary: [
+      { en: "first of all", tr: "öncelikle, her şeyden önce", level: "B1" },
+      { en: "moreover", tr: "üstelik, dahası", level: "B1" },
+      { en: "however", tr: "ancak, fakat", level: "B1" },
+      { en: "therefore", tr: "bu nedenle, dolayısıyla", level: "B1" },
+      { en: "for example", tr: "örneğin", level: "B1" },
+      { en: "in addition", tr: "ek olarak", level: "B1" },
+      { en: "on the other hand", tr: "öte yandan", level: "B1" },
+      { en: "as a result", tr: "sonuç olarak", level: "B1" },
+      { en: "in conclusion", tr: "sonuç olarak", level: "B1" },
+      { en: "finally", tr: "sonunda, nihayet", level: "B1" },
+      { en: "furthermore", tr: "dahası, üstelik", level: "B1" },
+      { en: "nevertheless", tr: "yine de, buna rağmen", level: "B1" }
+    ],
+    errorHunt: [
+      { wrong: "First all, we must go.", correct: "First of all, we must go.", explanation: "'First of all' doğru kalıptır.", level: "B1" },
+      { wrong: "However I am tired.", correct: "However, I am tired.", explanation: "'However' sonrası virgül konur.", level: "B1" },
+      { wrong: "For example apples.", correct: "For example, apples.", explanation: "'For example' sonrası virgül gereklidir.", level: "B1" },
+      { wrong: "Therefore we stayed.", correct: "Therefore, we stayed.", explanation: "Geçiş ifadelerinden sonra virgül kullanılır.", level: "B1" }
+    ],
+    roleplay: [
+      { 
+        scenario: "Bir fikir belirtirken 'öncelikle' diyorsun.",
+        options: [
+          "First all",
+          "At first",
+          "First of all",
+          "Firstly of all"
+        ],
+        correct: 2,
+        explanation: "'First of all' = Öncelikle, her şeyden önce",
+        level: "B1"
+      },
+      { 
+        scenario: "İki fikir arasında karşıtlık kuruyorsun.",
+        options: [
+          "And",
+          "Also",
+          "However",
+          "Moreover"
+        ],
+        correct: 2,
+        explanation: "'However' karşıtlık için kullanılır.",
+        level: "B1"
+      }
+    ]
   }
 };
 
@@ -1911,6 +2099,14 @@ const MODES = {
     description: "En uygun cümleyi seç",
     questionCount: 8,
     allowCustomCount: true
+  },
+  teamWar: {
+    name: "Team War",
+    icon: "🏰",
+    description: "Kale Fethetme - Takım Savaşı",
+    questionCount: 25,
+    allowCustomCount: false,
+    skipQuestionCount: true // Soru sayısı seçimi atlansın
   }
 };
 
@@ -1947,7 +2143,7 @@ const LEVELS = {
 
 // ==================== UYGULAMA DURUMU ====================
 const state = {
-  currentScreen: 'home', // home, levelSelect, topicSelect, modeSelect, questionCountSelect, game, result
+  currentScreen: 'home', // home, levelSelect, topicSelect, modeSelect, questionCountSelect, game, result, teamSetup
   selectedLevel: null, // A1, A2, B1, B2
   selectedTopics: [], // Artık çoklu seçim
   selectedMode: null,
@@ -1966,7 +2162,15 @@ const state = {
   selectedCards: [],
   matchedPairs: 0,
   // Cevap kontrolü için
-  answered: false
+  answered: false,
+  // Team War için
+  teamWar: {
+    teams: [],
+    currentTeamIndex: 0,
+    castles: [], // 5x5 = 25 kale
+    consecutiveCorrect: 0,
+    selectedCastle: null
+  }
 };
 
 // ==================== DOM ELEMENTLER ====================
@@ -1992,6 +2196,9 @@ function navigateTo(screen) {
       break;
     case 'questionCountSelect':
       renderQuestionCountSelect();
+      break;
+    case 'teamSetup':
+      renderTeamSetup();
       break;
     case 'game':
       renderGame();
@@ -2023,27 +2230,33 @@ function renderHome() {
 
 // ==================== SEVİYE SEÇİMİ ====================
 function renderLevelSelect() {
-  headerInfo.innerHTML = '<span>📊 Seviye Seçimi</span>';
+  headerInfo.innerHTML = '<span>🎓 Sınıf Seçimi</span>';
   
   let cardsHTML = '';
   for (let key in LEVELS) {
     const level = LEVELS[key];
+    const isDisabled = key !== 'A1' && key !== 'A2'; // Sadece 9 ve 10 aktif
+    const gradeNumber = key === 'A1' ? '9' : key === 'A2' ? '10' : key === 'B1' ? '11' : '12';
+    const disabledClass = isDisabled ? 'disabled' : '';
+    const disabledStyle = isDisabled ? 'opacity: 0.5; cursor: not-allowed; filter: grayscale(50%);' : '';
+    
     cardsHTML += `
-      <div class="card level-card" onclick="selectLevel('${key}')" tabindex="0" 
-           onkeypress="if(event.key==='Enter') selectLevel('${key}')"
-           style="border-color: ${level.color};">
+      <div class="card level-card ${disabledClass}" 
+           ${!isDisabled ? `onclick="selectLevel('${key}')" tabindex="0" onkeypress="if(event.key==='Enter') selectLevel('${key}')"` : ''}
+           style="border-color: ${level.color}; ${disabledStyle}">
         <div class="card-icon">${level.icon}</div>
-        <h3>${level.name}</h3>
+        <h3>${gradeNumber}. Sınıf</h3>
         <p>${level.description}</p>
+        ${isDisabled ? '<span style="color: #e74c3c; font-size: 0.9em; font-weight: bold;">Yakında</span>' : ''}
       </div>
     `;
   }
   
   mainContent.innerHTML = `
     <div class="container">
-      <h2 class="text-center mb-2">Seviyenizi Seçin</h2>
+      <h2 class="text-center mb-2">Sınıfını Seçin</h2>
       <p class="text-center mb-3" style="color: #666;">
-        İngilizce seviyenize uygun sorular alacaksınız
+        Sınıfına uygun konuları göreceksin
       </p>
       <div class="cards-grid">
         ${cardsHTML}
@@ -2065,14 +2278,32 @@ function selectLevel(levelKey) {
 // ==================== KONU SEÇİMİ ====================
 function renderTopicSelect() {
   const level = LEVELS[state.selectedLevel];
+  const gradeNumber = state.selectedLevel === 'A1' ? '9' : state.selectedLevel === 'A2' ? '10' : state.selectedLevel === 'B1' ? '11' : '12';
+  
   headerInfo.innerHTML = `
-    <span>${level.icon} ${level.name}</span>
+    <span>${level.icon} ${gradeNumber}. Sınıf</span>
     <span>📚 Konu Seçimi</span>
   `;
   
   let cardsHTML = '';
   for (let key in DATA) {
     const topic = DATA[key];
+    
+    // Sınıfa göre filtreleme - sadece grade özelliği olanları göster
+    // 9. sınıf (A1): Sadece grade: "9" olan konular (family_life, simple_present)
+    // 10. sınıf (A2): Sadece grade: "10" olan konular (used_to, transitions)
+    if (!topic.grade) {
+      continue; // grade özelliği olmayan eski konuları atla
+    }
+    
+    if (state.selectedLevel === 'A1' && topic.grade !== '9') {
+      continue; // 9. sınıf için sadece grade 9 konuları
+    }
+    
+    if (state.selectedLevel === 'A2' && topic.grade !== '10') {
+      continue; // 10. sınıf için sadece grade 10 konuları
+    }
+    
     const isSelected = state.selectedTopics.includes(key);
     
     cardsHTML += `
@@ -2092,7 +2323,7 @@ function renderTopicSelect() {
     <div class="container">
       <h2 class="text-center mb-2">Konuları Seçin</h2>
       <p class="text-center mb-3" style="color: #666;">
-        Birden fazla konu seçebilirsiniz. ${level.name} seviyesine uygun sorular gelecek.
+        Birden fazla konu seçebilirsiniz. ${gradeNumber}. sınıf seviyesine uygun sorular gelecek.
       </p>
       <div class="cards-grid">
         ${cardsHTML}
@@ -2138,9 +2369,10 @@ function selectTopic(topicKey) {
 // ==================== MOD SEÇİMİ ====================
 function renderModeSelect() {
   const level = LEVELS[state.selectedLevel];
+  const gradeNumber = state.selectedLevel === 'A1' ? '9' : state.selectedLevel === 'A2' ? '10' : state.selectedLevel === 'B1' ? '11' : '12';
   const topicNames = state.selectedTopics.map(key => DATA[key].name).join(', ');
   headerInfo.innerHTML = `
-    <span>${level.icon} ${level.name}</span>
+    <span>${level.icon} ${gradeNumber}. Sınıf</span>
     <span>📚 ${topicNames}</span>
   `;
   
@@ -2176,6 +2408,12 @@ function selectMode(modeKey) {
   state.selectedMode = modeKey;
   const mode = MODES[modeKey];
   
+  // Team War için özel akış
+  if (modeKey === 'teamWar') {
+    navigateTo('teamSetup');
+    return;
+  }
+  
   // Eğer mod soru sayısı seçimine izin veriyorsa, soru sayısı ekranına git
   if (mode.allowCustomCount) {
     navigateTo('questionCountSelect');
@@ -2190,11 +2428,12 @@ function selectMode(modeKey) {
 // ==================== SORU SAYISI SEÇİMİ ====================
 function renderQuestionCountSelect() {
   const level = LEVELS[state.selectedLevel];
+  const gradeNumber = state.selectedLevel === 'A1' ? '9' : state.selectedLevel === 'A2' ? '10' : state.selectedLevel === 'B1' ? '11' : '12';
   const topicNames = state.selectedTopics.map(key => DATA[key].name).join(', ');
   const mode = MODES[state.selectedMode];
   
   headerInfo.innerHTML = `
-    <span>${level.icon} ${level.name}</span>
+    <span>${level.icon} ${gradeNumber}. Sınıf</span>
     <span>📚 ${topicNames}</span>
     <span>${mode.icon} ${mode.name}</span>
   `;
@@ -2257,6 +2496,12 @@ function initGame() {
   // Soruları hazırla
   const mode = MODES[state.selectedMode];
   const questionCount = state.selectedQuestionCount || mode.questionCount || 10;
+  
+  // Team War için karışık sorular oluştur
+  if (state.selectedMode === 'teamWar') {
+    generateMixedTeamWarQuestions(combinedTopic, questionCount);
+    return;
+  }
   
   switch(state.selectedMode) {
     case 'mcq':
@@ -2324,8 +2569,15 @@ function filterByLevel(items, selectedLevelValue, levelOrder) {
 
 // ==================== OYUN RENDER ====================
 function renderGame() {
+  // Team War için özel render
+  if (state.selectedMode === 'teamWar') {
+    renderTeamWar();
+    return;
+  }
+  
   const mode = MODES[state.selectedMode];
   const level = LEVELS[state.selectedLevel];
+  const gradeNumber = state.selectedLevel === 'A1' ? '9' : state.selectedLevel === 'A2' ? '10' : state.selectedLevel === 'B1' ? '11' : '12';
   const topicNames = state.selectedTopics.map(key => DATA[key].name).join(' + ');
   
   // Header bilgisi
@@ -2355,7 +2607,7 @@ function renderGame() {
   }
   
   headerInfo.innerHTML = `
-    <span>${level.icon} ${level.name}</span>
+    <span>${level.icon} ${gradeNumber}. Sınıf</span>
     <span>📚 ${topicNames}</span>
     <span>${mode.icon} ${mode.name}</span>
     <span>⭐ Skor: ${state.score}</span>
@@ -2402,6 +2654,148 @@ function renderGame() {
 }
 
 // ==================== MCQ OYUNU ====================
+// Team War için karışık soru türleri oluştur
+function generateMixedTeamWarQuestions(topic, count) {
+  state.questions = [];
+  const questionTypes = ['mcq', 'sentenceBuild', 'errorHunt', 'roleplay'];
+  
+  for (let i = 0; i < count; i++) {
+    const randomType = questionTypes[Math.floor(Math.random() * questionTypes.length)];
+    let questionAdded = false;
+    
+    switch(randomType) {
+      case 'mcq':
+        // MCQ sorusu ekle
+        const allSentences = [...topic.trToEn, ...topic.enToTr].filter(item => item && item.tr && item.en);
+        if (allSentences.length > 0) {
+          const item = allSentences[Math.floor(Math.random() * allSentences.length)];
+          const isTrToEn = Math.random() > 0.5;
+          const question = isTrToEn ? item.tr : item.en;
+          const correctAnswer = isTrToEn ? item.en : item.tr;
+          
+          if (question && correctAnswer) {
+            const distractors = generateDistractors(correctAnswer, allSentences, isTrToEn ? 'en' : 'tr');
+            const options = shuffleArray([correctAnswer, ...distractors]);
+            
+            state.questions.push({
+              type: 'mcq',
+              question,
+              options,
+              correct: options.indexOf(correctAnswer)
+            });
+            questionAdded = true;
+          }
+        }
+        break;
+        
+      case 'sentenceBuild':
+        // Cümle kurma sorusu ekle
+        const sentences = [...topic.trToEn, ...topic.enToTr].filter(item => item && item.tr && item.en);
+        if (sentences.length > 0) {
+          const item = sentences[Math.floor(Math.random() * sentences.length)];
+          const isTrToEn = Math.random() > 0.5;
+          const prompt = isTrToEn ? item.tr : item.en;
+          const answer = isTrToEn ? item.en : item.tr;
+          
+          if (prompt && answer) {
+            const words = shuffleArray(answer.split(' '));
+            
+            state.questions.push({
+              type: 'sentenceBuild',
+              prompt,
+              words,
+              correctSentence: answer
+            });
+            questionAdded = true;
+          }
+        }
+        break;
+        
+      case 'errorHunt':
+        // Hata bulma sorusu ekle
+        if (topic.errorHunt && topic.errorHunt.length > 0) {
+          const errorItem = topic.errorHunt[Math.floor(Math.random() * topic.errorHunt.length)];
+          if (errorItem && errorItem.scenario && errorItem.options && errorItem.options.length > 0) {
+            state.questions.push({
+              type: 'errorHunt',
+              scenario: errorItem.scenario,
+              options: errorItem.options,
+              correct: errorItem.correct,
+              explanation: errorItem.explanation || ''
+            });
+            questionAdded = true;
+          }
+        }
+        break;
+        
+      case 'roleplay':
+        // Roleplay sorusu ekle
+        if (topic.roleplay && topic.roleplay.length > 0) {
+          const roleplayItem = topic.roleplay[Math.floor(Math.random() * topic.roleplay.length)];
+          if (roleplayItem && roleplayItem.situation && roleplayItem.options && roleplayItem.options.length > 0) {
+            state.questions.push({
+              type: 'roleplay',
+              situation: roleplayItem.situation,
+              options: roleplayItem.options,
+              correct: roleplayItem.correct,
+              explanation: roleplayItem.explanation || ''
+            });
+            questionAdded = true;
+          }
+        }
+        break;
+    }
+    
+    // Eğer soru eklenemedi ve hala MCQ denemek gerekiyorsa
+    if (!questionAdded) {
+      const allSentences = [...topic.trToEn, ...topic.enToTr].filter(item => item && item.tr && item.en);
+      if (allSentences.length > 0) {
+        const item = allSentences[Math.floor(Math.random() * allSentences.length)];
+        const isTrToEn = Math.random() > 0.5;
+        const question = isTrToEn ? item.tr : item.en;
+        const correctAnswer = isTrToEn ? item.en : item.tr;
+        
+        if (question && correctAnswer) {
+          const distractors = generateDistractors(correctAnswer, allSentences, isTrToEn ? 'en' : 'tr');
+          const options = shuffleArray([correctAnswer, ...distractors]);
+          
+          state.questions.push({
+            type: 'mcq',
+            question,
+            options,
+            correct: options.indexOf(correctAnswer)
+          });
+        }
+      }
+    }
+  }
+  
+  // Eğer yeterli soru oluşturulamadıysa, MCQ ile doldur
+  while (state.questions.length < count) {
+    const allSentences = [...topic.trToEn, ...topic.enToTr].filter(item => item && item.tr && item.en);
+    if (allSentences.length > 0) {
+      const item = allSentences[Math.floor(Math.random() * allSentences.length)];
+      const isTrToEn = Math.random() > 0.5;
+      const question = isTrToEn ? item.tr : item.en;
+      const correctAnswer = isTrToEn ? item.en : item.tr;
+      
+      if (question && correctAnswer) {
+        const distractors = generateDistractors(correctAnswer, allSentences, isTrToEn ? 'en' : 'tr');
+        const options = shuffleArray([correctAnswer, ...distractors]);
+        
+        state.questions.push({
+          type: 'mcq',
+          question,
+          options,
+          correct: options.indexOf(correctAnswer)
+        });
+      }
+    } else {
+      break;
+    }
+  }
+}
+
 function generateMCQQuestions(topic, count) {
   const allSentences = [...topic.trToEn, ...topic.enToTr];
   const shuffled = shuffleArray(allSentences);
@@ -2484,6 +2878,14 @@ function renderMCQ() {
 
 function checkMCQAnswer(selected) {
   if (state.answered) return;
+  
+  // Team War için özel cevap kontrolü
+  if (state.selectedMode === 'teamWar') {
+    const question = state.questions[state.questionIndex];
+    const selectedIndex = question.options.indexOf(selected);
+    checkTeamWarAnswer(selectedIndex);
+    return;
+  }
   
   state.answered = true;
   const correct = state.currentQuestion.correctAnswer;
@@ -3124,11 +3526,13 @@ function renderResult() {
   
   headerInfo.innerHTML = `<span>🏁 Oyun Bitti</span>`;
   
+  const gradeNumber = state.selectedLevel === 'A1' ? '9' : state.selectedLevel === 'A2' ? '10' : state.selectedLevel === 'B1' ? '11' : '12';
+  
   mainContent.innerHTML = `
     <div class="container result-screen">
       <div class="result-icon">${resultIcon}</div>
       <h2>${resultMessage}</h2>
-      <p>${level.name} - ${topicNames}</p>
+      <p>${gradeNumber}. Sınıf - ${topicNames}</p>
       <p style="color: #666; font-size: 0.9rem;">${mode.name}</p>
       
       <div class="stats-grid">
@@ -3208,3 +3612,623 @@ window.addEventListener('beforeunload', () => {
     clearInterval(state.timerInterval);
   }
 });
+
+// ==================== TEAM WAR MOD ====================
+
+// Renk seçenekleri
+const TEAM_COLORS = [
+  { name: 'Kırmızı', value: '#e74c3c', textColor: '#fff' },
+  { name: 'Mavi', value: '#3498db', textColor: '#fff' },
+  { name: 'Yeşil', value: '#2ecc71', textColor: '#fff' },
+  { name: 'Sarı', value: '#f1c40f', textColor: '#000' },
+  { name: 'Mor', value: '#9b59b6', textColor: '#fff' },
+  { name: 'Turuncu', value: '#e67e22', textColor: '#fff' }
+];
+
+// Takım kurulum ekranı
+function renderTeamSetup() {
+  headerInfo.innerHTML = '<span>🏰 Team War - Takım Kurulumu</span>';
+  
+  // Eğer takımlar henüz oluşturulmadıysa, varsayılan 2 takım oluştur
+  if (state.teamWar.teams.length === 0) {
+    state.teamWar.teams = [
+      { id: 1, name: '', color: '', score: 0 },
+      { id: 2, name: '', color: '', score: 0 }
+    ];
+  }
+  
+  const teamCount = state.teamWar.teams.length;
+  
+  let teamsHTML = '';
+  state.teamWar.teams.forEach((team, index) => {
+    const usedColors = state.teamWar.teams
+      .filter((t, i) => i !== index && t.color)
+      .map(t => t.color);
+    
+    const colorOptions = TEAM_COLORS.map(color => {
+      const isDisabled = usedColors.includes(color.value);
+      const selected = team.color === color.value ? 'selected' : '';
+      return `<option value="${color.value}" ${isDisabled ? 'disabled' : ''} ${selected}>${color.name}</option>`;
+    }).join('');
+    
+    teamsHTML += `
+      <div class="team-setup-card" style="border-left: 5px solid ${team.color || '#ccc'};">
+        <h3>Takım ${index + 1}</h3>
+        <div class="form-group">
+          <label>Takım İsmi:</label>
+          <input type="text" 
+                 class="team-name-input" 
+                 placeholder="Takım ismini girin" 
+                 value="${team.name}"
+                 onchange="updateTeamName(${index}, this.value)">
+        </div>
+        <div class="form-group">
+          <label>Renk:</label>
+          <select class="team-color-select" onchange="updateTeamColor(${index}, this.value)">
+            <option value="">Renk Seç</option>
+            ${colorOptions}
+          </select>
+        </div>
+      </div>
+    `;
+  });
+  
+  const allTeamsReady = state.teamWar.teams.every(team => team.name && team.color);
+  
+  mainContent.innerHTML = `
+    <div class="container">
+      <h2 class="text-center mb-2">Takımları Oluşturun</h2>
+      <p class="text-center mb-3" style="color: #666;">
+        Her takım için isim ve renk seçin
+      </p>
+      
+      <div class="team-count-selector">
+        <button class="btn btn-secondary" onclick="changeTeamCount(-1)" ${teamCount <= 2 ? 'disabled' : ''}>
+          ➖
+        </button>
+        <span style="margin: 0 20px; font-size: 1.2rem; font-weight: bold;">
+          ${teamCount} Takım
+        </span>
+        <button class="btn btn-secondary" onclick="changeTeamCount(1)" ${teamCount >= 4 ? 'disabled' : ''}>
+          ➕
+        </button>
+      </div>
+      
+      <div class="teams-setup-grid">
+        ${teamsHTML}
+      </div>
+      
+      <div class="btn-group">
+        <button class="btn btn-secondary" onclick="navigateTo('modeSelect')">
+          ⬅ Geri
+        </button>
+        <button class="btn btn-primary" 
+                onclick="startTeamWar()" 
+                ${!allTeamsReady ? 'disabled' : ''}>
+          Savaşı Başlat! 🏰
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+// Takım sayısını değiştir
+function changeTeamCount(delta) {
+  const newCount = state.teamWar.teams.length + delta;
+  if (newCount < 2 || newCount > 4) return;
+  
+  if (delta > 0) {
+    // Yeni takım ekle
+    state.teamWar.teams.push({
+      id: newCount,
+      name: '',
+      color: '',
+      score: 0
+    });
+  } else {
+    // Son takımı çıkar
+    state.teamWar.teams.pop();
+  }
+  
+  renderTeamSetup();
+}
+
+// Takım ismini güncelle
+function updateTeamName(index, name) {
+  state.teamWar.teams[index].name = name;
+  renderTeamSetup();
+}
+
+// Takım rengini güncelle
+function updateTeamColor(index, color) {
+  state.teamWar.teams[index].color = color;
+  renderTeamSetup();
+}
+
+// Team War oyununu başlat
+function startTeamWar() {
+  // Kaleleri başlat (5x5 = 25 kale)
+  state.teamWar.castles = [];
+  for (let i = 0; i < 25; i++) {
+    state.teamWar.castles.push({
+      owner: null,
+      siegeCount: 0
+    });
+  }
+  
+  state.teamWar.currentTeamIndex = 0;
+  state.teamWar.consecutiveCorrect = 0;
+  state.teamWar.selectedCastle = null;
+  
+  // Soruları hazırla
+  state.selectedQuestionCount = 25;
+  initGame();
+  
+  navigateTo('game');
+}
+
+// Team War oyun ekranını render et
+function renderTeamWar() {
+  const currentTeam = state.teamWar.teams[state.teamWar.currentTeamIndex];
+  
+  headerInfo.innerHTML = `
+    <span>🏰 Team War</span>
+    <span style="background: ${currentTeam.color}; color: ${TEAM_COLORS.find(c => c.value === currentTeam.color)?.textColor}; padding: 5px 15px; border-radius: 20px;">
+      ${currentTeam.name}
+    </span>
+  `;
+  
+  // Takım skorlarını göster
+  let scoresHTML = '<div class="team-scores">';
+  state.teamWar.teams.forEach(team => {
+    scoresHTML += `
+      <div class="team-score" style="background: ${team.color}; color: ${TEAM_COLORS.find(c => c.value === team.color)?.textColor};">
+        <strong>${team.name}</strong>
+        <span>${team.score} kale</span>
+      </div>
+    `;
+  });
+  scoresHTML += '</div>';
+  
+  // Kale haritasını oluştur
+  let castlesHTML = '<div class="castle-grid">';
+  for (let i = 0; i < 25; i++) {
+    const castle = state.teamWar.castles[i];
+    const bgColor = castle.owner !== null ? state.teamWar.teams[castle.owner].color : '#95a5a6';
+    const siegeIndicator = castle.siegeCount > 0 ? '<div class="siege-indicator">⚔️</div>' : '';
+    
+    castlesHTML += `
+      <div class="castle" 
+           style="background: ${bgColor};" 
+           onclick="selectCastle(${i})"
+           data-castle-id="${i}">
+        ${siegeIndicator}
+      </div>
+    `;
+  }
+  castlesHTML += '</div>';
+  
+  mainContent.innerHTML = `
+    <div class="container team-war-screen">
+      <h2 class="text-center mb-2">Kale Haritası</h2>
+      ${scoresHTML}
+      ${castlesHTML}
+      <p class="text-center mt-3" style="color: #666;">
+        Bir kaleye tıklayın ve soruyu doğru cevaplayarak ele geçirin!
+      </p>
+    </div>
+  `;
+}
+
+// Kale seç
+function selectCastle(castleIndex) {
+  if (state.answered) return; // Soru cevaplanmışsa yeni kale seçilemez
+  
+  state.teamWar.selectedCastle = castleIndex;
+  
+  // Rastgele bir soru göster
+  showTeamWarQuestion();
+}
+
+// Team War sorusu göster
+function showTeamWarQuestion() {
+  if (state.questionIndex >= state.questions.length) {
+    endTeamWar();
+    return;
+  }
+  
+  const currentTeam = state.teamWar.teams[state.teamWar.currentTeamIndex];
+  const castle = state.teamWar.castles[state.teamWar.selectedCastle];
+  const question = state.questions[state.questionIndex];
+  
+  // Soru kontrolü
+  if (!question) {
+    showNotification('Soru yüklenemedi! Bir sonraki soruya geçiliyor...', 'error');
+    setTimeout(() => {
+      state.questionIndex++;
+      state.answered = false;
+      state.teamWar.selectedCastle = null;
+      if (state.questionIndex >= state.questions.length) {
+        endTeamWar();
+      } else {
+        renderTeamWar();
+      }
+    }, 2000);
+    return;
+  }
+  
+  let questionInfo = '';
+  if (castle.owner !== null && castle.owner !== state.teamWar.currentTeamIndex) {
+    const ownerTeam = state.teamWar.teams[castle.owner];
+    questionInfo = `
+      <div class="castle-info" style="background: ${ownerTeam.color}; color: ${TEAM_COLORS.find(c => c.value === ownerTeam.color)?.textColor};">
+        ⚔️ Kuşatma! Bu kale ${ownerTeam.name} takımına ait. 
+        ${castle.siegeCount === 0 ? 'İlk doğru cevap kuşatma, ikinci doğru cevap ele geçirme!' : '1 doğru cevap daha!'}
+      </div>
+    `;
+  }
+  
+  headerInfo.innerHTML = `
+    <span>🏰 Team War</span>
+    <span style="background: ${currentTeam.color}; color: ${TEAM_COLORS.find(c => c.value === currentTeam.color)?.textColor}; padding: 5px 15px; border-radius: 20px;">
+      ${currentTeam.name} - Soru ${state.questionIndex + 1}
+    </span>
+  `;
+  
+  // Soru türüne göre render et
+  let contentHTML = '';
+  switch(question.type) {
+    case 'mcq':
+      contentHTML = renderTeamWarMCQ(question);
+      break;
+    case 'sentenceBuild':
+      contentHTML = renderTeamWarSentenceBuild(question);
+      break;
+    case 'errorHunt':
+      contentHTML = renderTeamWarErrorHunt(question);
+      break;
+    case 'roleplay':
+      contentHTML = renderTeamWarRoleplay(question);
+      break;
+    default:
+      contentHTML = renderTeamWarMCQ(question);
+  }
+  
+  mainContent.innerHTML = `
+    <div class="container">
+      ${questionInfo}
+      ${contentHTML}
+    </div>
+  `;
+}
+
+// Team War için MCQ render
+function renderTeamWarMCQ(question) {
+  if (!question || !question.question || !question.options) {
+    return '<p style="color: red;">Soru yüklenemedi. Lütfen tekrar deneyin.</p>';
+  }
+  
+  return `
+    <div class="question-card">
+      <h3 class="question-text">${question.question}</h3>
+      <div class="answer-options">
+        ${question.options.map((option, index) => `
+          <button class="answer-option" onclick="checkTeamWarAnswer(${index})">
+            ${option || 'Seçenek'}
+          </button>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// Team War için Sentence Build render
+function renderTeamWarSentenceBuild(question) {
+  if (!question || !question.prompt || !question.words || question.words.length === 0) {
+    return '<p style="color: red;">Soru yüklenemedi. Lütfen tekrar deneyin.</p>';
+  }
+  
+  return `
+    <div class="question-card">
+      <h3 class="question-text">${question.prompt}</h3>
+      <p style="color: #666; margin-bottom: 1rem;">Kelimeleri doğru sırada seçin:</p>
+      <div class="word-bank">
+        ${question.words.map((word, index) => `
+          <button class="word-btn" onclick="selectTeamWarWord(${index}, '${word}')">
+            ${word || ''}
+          </button>
+        `).join('')}
+      </div>
+      <div class="selected-sentence" id="teamWarSentence"></div>
+      <button class="btn btn-primary mt-2" onclick="checkTeamWarSentence()" id="checkSentenceBtn" disabled>
+        Cevabı Kontrol Et
+      </button>
+    </div>
+  `;
+}
+
+// Team War için Error Hunt render
+function renderTeamWarErrorHunt(question) {
+  if (!question || !question.scenario || !question.options || question.options.length === 0) {
+    return '<p style="color: red;">Soru yüklenemedi. Lütfen tekrar deneyin.</p>';
+  }
+  
+  return `
+    <div class="question-card">
+      <h3 class="question-text">📝 ${question.scenario}</h3>
+      <p style="color: #666; margin-bottom: 1rem;">Doğru cümleyi seçin:</p>
+      <div class="answer-options">
+        ${question.options.map((option, index) => `
+          <button class="answer-option" onclick="checkTeamWarAnswer(${index})">
+            ${option || 'Seçenek'}
+          </button>
+        `).join('')}
+      </div>
+      <p class="hint" style="color: #888; font-size: 0.9rem; margin-top: 1rem;">
+        💡 ${question.explanation || ''}
+      </p>
+    </div>
+  `;
+}
+
+// Team War için Roleplay render
+function renderTeamWarRoleplay(question) {
+  if (!question || !question.situation || !question.options || question.options.length === 0) {
+    return '<p style="color: red;">Soru yüklenemedi. Lütfen tekrar deneyin.</p>';
+  }
+  
+  return `
+    <div class="question-card">
+      <h3 class="question-text">🎭 ${question.situation}</h3>
+      <p style="color: #666; margin-bottom: 1rem;">En uygun cevabı seçin:</p>
+      <div class="answer-options">
+        ${question.options.map((option, index) => `
+          <button class="answer-option" onclick="checkTeamWarAnswer(${index})">
+            ${option || 'Seçenek'}
+          </button>
+        `).join('')}
+      </div>
+    </div>
+  `;
+}
+
+// Sentence Build için kelime seçimi
+let teamWarSelectedWords = [];
+function selectTeamWarWord(index, word) {
+  const btn = document.querySelectorAll('.word-btn')[index];
+  if (btn.disabled) return;
+  
+  btn.disabled = true;
+  btn.style.opacity = '0.3';
+  teamWarSelectedWords.push(word);
+  
+  document.getElementById('teamWarSentence').textContent = teamWarSelectedWords.join(' ');
+  document.getElementById('checkSentenceBtn').disabled = teamWarSelectedWords.length === 0;
+}
+
+// Sentence Build cevabını kontrol et
+function checkTeamWarSentence() {
+  const question = state.questions[state.questionIndex];
+  const userAnswer = teamWarSelectedWords.join(' ');
+  const isCorrect = userAnswer.toLowerCase().trim() === question.correctSentence.toLowerCase().trim();
+  
+  teamWarSelectedWords = [];
+  
+  // MCQ formatına çevir ve kontrol et
+  checkTeamWarAnswer(isCorrect ? 0 : 1, isCorrect);
+}
+
+// Team War cevabını kontrol et
+function checkTeamWarAnswer(selectedIndex, forceCorrect = null) {
+  if (state.answered) return;
+  state.answered = true;
+  
+  const question = state.questions[state.questionIndex];
+  const isCorrect = forceCorrect !== null ? forceCorrect : selectedIndex === question.correct;
+  const currentTeam = state.teamWar.teams[state.teamWar.currentTeamIndex];
+  const castle = state.teamWar.castles[state.teamWar.selectedCastle];
+  
+  // Cevap butonlarını güncelle
+  const buttons = document.querySelectorAll('.answer-option');
+  buttons.forEach((btn, idx) => {
+    btn.disabled = true;
+    if (idx === question.correct) {
+      btn.classList.add('correct');
+    } else if (idx === selectedIndex && !isCorrect) {
+      btn.classList.add('wrong');
+    }
+  });
+  
+  let resultMessage = '';
+  
+  if (isCorrect) {
+    state.teamWar.consecutiveCorrect++;
+    
+    // Kale ele geçirme mantığı
+    if (castle.owner === null) {
+      // Nötr kale - direkt ele geçir
+      castle.owner = state.teamWar.currentTeamIndex;
+      currentTeam.score++;
+      resultMessage = `✅ Doğru! Kaleyi ele geçirdiniz! (+1 kale)`;
+    } else if (castle.owner === state.teamWar.currentTeamIndex) {
+      // Zaten kendi kalemiz
+      resultMessage = `✅ Doğru! Bu kale zaten sizin.`;
+    } else {
+      // Rakip kale
+      castle.siegeCount++;
+      if (castle.siegeCount >= 2) {
+        // Kaleyi ele geçir
+        const previousOwner = state.teamWar.teams[castle.owner];
+        previousOwner.score--;
+        castle.owner = state.teamWar.currentTeamIndex;
+        castle.siegeCount = 0;
+        currentTeam.score++;
+        resultMessage = `⚔️ Doğru! Kaleyi ele geçirdiniz! (+1 kale)`;
+      } else {
+        resultMessage = `⚔️ Doğru! Kuşatma başladı! (1 doğru cevap daha gerekli)`;
+      }
+    }
+    
+    // Bonus kontrol et (3 yan yana)
+    checkBonusCastles();
+    
+  } else {
+    state.teamWar.consecutiveCorrect = 0;
+    resultMessage = `❌ Yanlış! Sıra bir sonraki takımda.`;
+  }
+  
+  // Sonuç mesajını göster (animasyonlu)
+  setTimeout(() => {
+    showNotification(resultMessage, isCorrect ? 'success' : 'error');
+    
+    // Üst üste 3 doğru cevap bonusu
+    if (state.teamWar.consecutiveCorrect >= 3) {
+      setTimeout(() => {
+        showNotification(`🎉 ${currentTeam.name} üst üste 3 doğru cevap verdi! Ekstra tur!`, 'bonus');
+      }, 2000);
+      state.teamWar.consecutiveCorrect = 0;
+    } else if (!isCorrect) {
+      // Sıra değişimi
+      state.teamWar.currentTeamIndex = (state.teamWar.currentTeamIndex + 1) % state.teamWar.teams.length;
+    }
+    
+    setTimeout(() => {
+      state.questionIndex++;
+      state.answered = false;
+      state.teamWar.selectedCastle = null;
+      
+      // Oyun bitişi kontrolü
+      const totalCaptured = state.teamWar.teams.reduce((sum, team) => sum + team.score, 0);
+      const hasWinner = state.teamWar.teams.some(team => team.score >= 10);
+      
+      if (totalCaptured >= 25 || hasWinner || state.questionIndex >= state.questions.length) {
+        endTeamWar();
+      } else {
+        renderTeamWar();
+      }
+    }, 2500);
+  }, 1500);
+}
+
+// Bonus kale kontrolü (3 yan yana)
+function checkBonusCastles() {
+  const currentTeamIndex = state.teamWar.currentTeamIndex;
+  
+  // Yatay kontrol
+  for (let row = 0; row < 5; row++) {
+    for (let col = 0; col <= 2; col++) {
+      const idx1 = row * 5 + col;
+      const idx2 = row * 5 + col + 1;
+      const idx3 = row * 5 + col + 2;
+      
+      if (state.teamWar.castles[idx1].owner === currentTeamIndex &&
+          state.teamWar.castles[idx2].owner === currentTeamIndex &&
+          state.teamWar.castles[idx3].owner === currentTeamIndex) {
+        state.teamWar.teams[currentTeamIndex].score += 2;
+        setTimeout(() => {
+          showNotification(`🎯 Bonus! 3 kale yan yana! +2 bonus puan!`, 'bonus');
+        }, 1000);
+        return;
+      }
+    }
+  }
+  
+  // Dikey kontrol
+  for (let col = 0; col < 5; col++) {
+    for (let row = 0; row <= 2; row++) {
+      const idx1 = row * 5 + col;
+      const idx2 = (row + 1) * 5 + col;
+      const idx3 = (row + 2) * 5 + col;
+      
+      if (state.teamWar.castles[idx1].owner === currentTeamIndex &&
+          state.teamWar.castles[idx2].owner === currentTeamIndex &&
+          state.teamWar.castles[idx3].owner === currentTeamIndex) {
+        state.teamWar.teams[currentTeamIndex].score += 2;
+        setTimeout(() => {
+          showNotification(`🎯 Bonus! 3 kale dikey yan yana! +2 bonus puan!`, 'bonus');
+        }, 1000);
+        return;
+      }
+    }
+  }
+}
+
+// Team War'ı bitir
+function endTeamWar() {
+  // Kazanan takımı bul
+  const winner = state.teamWar.teams.reduce((max, team) => 
+    team.score > max.score ? team : max
+  );
+  
+  headerInfo.innerHTML = `<span>🏁 Oyun Bitti</span>`;
+  
+  let teamsHTML = '<div class="team-final-scores">';
+  state.teamWar.teams
+    .sort((a, b) => b.score - a.score)
+    .forEach((team, index) => {
+      const medal = index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : '';
+      teamsHTML += `
+        <div class="team-final-score" style="background: ${team.color}; color: ${TEAM_COLORS.find(c => c.value === team.color)?.textColor};">
+          ${medal} <strong>${team.name}</strong>: ${team.score} kale
+        </div>
+      `;
+    });
+  teamsHTML += '</div>';
+  
+  mainContent.innerHTML = `
+    <div class="container result-screen">
+      <div class="result-icon">🏆</div>
+      <h2 style="color: ${winner.color};">
+        ${winner.name} Kazandı!
+      </h2>
+      <p style="font-size: 1.5rem;">${winner.score} Kale Ele Geçirildi</p>
+      
+      <h3 class="mt-3">Final Sıralaması</h3>
+      ${teamsHTML}
+      
+      <div class="btn-group mt-3">
+        <button class="btn btn-secondary" onclick="navigateTo('home')">
+          🏠 Ana Menü
+        </button>
+        <button class="btn btn-primary" onclick="restartTeamWar()">
+          🔄 Tekrar Oyna
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+// Team War'ı yeniden başlat
+function restartTeamWar() {
+  startTeamWar();
+}
+
+// Animasyonlu bildirim göster
+function showNotification(message, type = 'info') {
+  // Mevcut bildirimi temizle
+  const existingNotification = document.querySelector('.game-notification');
+  if (existingNotification) {
+    existingNotification.remove();
+  }
+  
+  // Yeni bildirim oluştur
+  const notification = document.createElement('div');
+  notification.className = `game-notification notification-${type}`;
+  notification.textContent = message;
+  
+  document.body.appendChild(notification);
+  
+  // Animasyonu tetikle
+  setTimeout(() => {
+    notification.classList.add('show');
+  }, 10);
+  
+  // 3 saniye sonra kaldır
+  setTimeout(() => {
+    notification.classList.remove('show');
+    setTimeout(() => {
+      notification.remove();
+    }, 300);
+  }, 3000);
+}
+
